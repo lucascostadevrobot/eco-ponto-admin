@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.mybuttons {
+    float: right;
+    /* margin-right: -30px */
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+}
+
+.btn-circle.btn-lg {
+    width: 50px;
+    height: 50px;
+    padding: 10px 16px;
+    font-size: 12px;
+    line-height: 1.33;
+    border-radius: 25px;
+}
+
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    font-size: 24px;
+    line-height: 1.33;
+    border-radius: 35px;
+}
+
+.multi-select {
+    height: 39px;
+}
+
+.mult-items {
+    background-color: hsl(0, 0%, 90%);
+    border-radius: 2px;
+    display: inline-flex;
+    margin: 2px;
+    min-width: 0;
+    box-sizing: border-box;
+}
+
+.text-mult {
+    border-radius: 2px;
+    color: hsl(0, 0%, 20%);
+    font-size: 85%;
+    overflow: hidden;
+    padding: 3px;
+    /* padding-left: 6px; */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.card-pontos {
+    position: relative !important;
+    z-index: 3;
+    height: 350px;
+    width: 250px;
+    display: inline;
+    margin: 15px;
+    float: right;
+    margin-top: 50px;
+}
+
+.inner {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.minhaSidebar {
+    height: 100px;
+    width: 20%;
+    margin-left: 10px;
+}
